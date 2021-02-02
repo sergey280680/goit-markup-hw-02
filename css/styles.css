@@ -28,7 +28,8 @@ ol {
   list-style-type: none;
 }
 :root {
-  --hover-color: #2196f3;
+  --hover-color: #ea00ff;
+  /* --hover-color: #2196f3; */
   --title-main-color: #fff;
   --title-color: #212121;
   --text-color: #757575;
