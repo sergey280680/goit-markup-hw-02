@@ -1,4 +1,5 @@
-body{
+body,
+address{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -7,6 +8,9 @@ body{
 
 *{
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 a {
   font-family: "Roboto", sans-serif;
@@ -93,7 +97,10 @@ ol {
   background-color: var(--footer-bg-color);
 }
 .order-service {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
   background-color: #2196f3;
   color: #fff;
   padding: 10px 32px;
@@ -118,7 +125,9 @@ ol {
   font-size: 36px;
   line-height: 42px;
 }
-
+.team{
+  background-color: var(--section-bg-color);
+}
 .team__title-name {
   font-weight: 500;
   font-size: 16px;
@@ -151,7 +160,6 @@ ol {
 }
 .portfolio__filter-link {
   padding: 6px 22px;
-  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   background: #f5f4fa;
