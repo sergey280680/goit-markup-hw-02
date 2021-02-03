@@ -1,28 +1,40 @@
 body,
-address{
+address {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.03em;
 }
-
-*{
+button{
+  font-family:  inherit;
+   border-radius: 4px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+* {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  border: 0;
+  border: none;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--title-color);
+  letter-spacing: 0.06em;
 }
 a {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.03em;
-}
-h2,
-h3 {
-  font-weight: 700;
-  color: var(--title-color);
-   letter-spacing: 0.06em;
 }
 p {
   color: var(--text-color);
@@ -32,8 +44,7 @@ ol {
   list-style-type: none;
 }
 :root {
-  --hover-color: #ea00ff;
-  /* --hover-color: #2196f3; */
+  --hover-color: #2196f3;
   --title-main-color: #fff;
   --title-color: #212121;
   --text-color: #757575;
@@ -61,15 +72,15 @@ ol {
   color: var(--title-main-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-   text-transform: uppercase;
+  line-height: 1.4;
+  text-transform: uppercase;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: var(--nav-color);
 }
 
@@ -80,7 +91,7 @@ ol {
 .nav-list {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .nav-link {
@@ -89,7 +100,7 @@ ol {
 .contact {
   color: var(--contact-color);
 }
-.current{
+.current {
   color: var(--hover-color);
 }
 /* ======== */
@@ -97,75 +108,70 @@ ol {
   background-color: var(--footer-bg-color);
 }
 .order-service {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+    font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   background-color: #2196f3;
   color: #fff;
   padding: 10px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  border: none;
+ 
 }
 .features__title {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 .features__text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 }
 .features__main-title,
 .make__title,
 .team__title {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
 }
-.team{
+.team {
   background-color: var(--section-bg-color);
 }
 .team__title-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
 }
 .team__text {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
 }
 .footer {
   background-color: var(--footer-bg-color);
 }
-.footer__logo,
-.footer__logo:hover {
+.footer__logo {
   color: #fff;
 }
 
 .footer__text-address {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #fff;
 }
 .footer__contact {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
 .portfolio__list-item {
   margin: 10px;
 }
 .portfolio__filter-link {
+  font-weight: 500;
   padding: 6px 22px;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   background: #f5f4fa;
   border-radius: 4px;
-  cursor: pointer;
-}
+  }
 .portfolio__filter-link:hover {
   color: #fff;
   background-color: var(--hover-color);
@@ -174,10 +180,10 @@ ol {
 .portfolio__title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 .portfolio__title-subtext {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
 }
